@@ -1,9 +1,0 @@
-C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\NLogExample\bin\Debug\nlog.config
-C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\NLogExample\bin\Debug\NLogExample.exe.config
-C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\NLogExample\bin\Debug\NLogExample.exe
-C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\NLogExample\bin\Debug\NLogExample.pdb
-C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\NLogExample\bin\Debug\NLog.dll
-C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\NLogExample\bin\Debug\NLog.xml
-C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\NLogExample\obj\Debug\NLogExample.csprojResolveAssemblyReference.cache
-C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\NLogExample\obj\Debug\NLogExample.exe
-C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\NLogExample\obj\Debug\NLogExample.pdb

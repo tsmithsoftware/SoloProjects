@@ -1,8 +1,0 @@
-C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\CodeKataOne\bin\Debug\CodeKataOne.exe.config
-C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\CodeKataOne\bin\Debug\CodeKataOne.exe
-C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\CodeKataOne\bin\Debug\CodeKataOne.pdb
-C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\CodeKataOne\bin\Debug\nunit.framework.dll
-C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\CodeKataOne\bin\Debug\nunit.framework.xml
-C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\CodeKataOne\obj\Debug\CodeKataOne.csprojResolveAssemblyReference.cache
-C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\CodeKataOne\obj\Debug\CodeKataOne.exe
-C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\CodeKataOne\obj\Debug\CodeKataOne.pdb

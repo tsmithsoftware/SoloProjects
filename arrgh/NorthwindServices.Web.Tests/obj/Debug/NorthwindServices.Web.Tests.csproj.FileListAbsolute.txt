@@ -1,1 +1,0 @@
-C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\NorthwindServices.Web.Tests\obj\Debug\NorthwindServices.Web.Tests.csprojResolveAssemblyReference.cache

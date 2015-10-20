@@ -1,6 +1,0 @@
-C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\MyTask\bin\Debug\MyTask.exe.config
-C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\MyTask\bin\Debug\MyTask.exe
-C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\MyTask\bin\Debug\MyTask.pdb
-C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\MyTask\obj\Debug\MyTask.csprojResolveAssemblyReference.cache
-C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\MyTask\obj\Debug\MyTask.exe
-C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\MyTask\obj\Debug\MyTask.pdb
