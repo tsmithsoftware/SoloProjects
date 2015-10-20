@@ -1,0 +1,30 @@
+﻿@model SelectJquery.Models.ViewModel.CountryViewModel
+
+@{
+    Layout = null;
+}
+
+<!--First parameter identifies if model already has selected country code. If so, then that value will be selected in the dropdown list. Second parameter defines the list of countries. Third parameter data will be showed in the dropdown list when there is no selected country. Fourth parameter creates an object to specify the attributes for generated HTML code. Those attributes will be used in JQuery functions to manipulate the data.-->
+@Html.DropDownListFor(p => p.SelectedCountryID,
+                       Model.CountryIEnum,
+                       "Select a Country",
+                        new
+                        {
+                            @id = "Country-DropdownID",
+                            @class = "Country-DropdownCls"
+                        })
+
+<!--Next, you need to add the JQuery functions to capture the change event of country drop down list and load data for state/province drop down list. Please, note that “StateProvinceContainer” and “CityContainer” are two div tags and will be defined in the Index.cshtml. -->
+<script type="text/javascript">
+    $(function () {
+        // Populate State/Provinces
+        $('#Country-DropdownID').change(function() {
+            var selectedCountryID = this.value;
+            $('#StateProvinceContainer').load("<a href='mailto:'@Url.Action("StateProvinceView")?countryID='">'@Url.Action("StateProvinceView")?countryID=' +
+                                      selectedCountryID);
+
+            // clear up the city drop down list as no state is selected
+            $('#CityContainer').load("<a href='mailto:'@Url.Action("CityView")'">'@Url.Action("CityView")</a>');
+        });
+    });
+</script>

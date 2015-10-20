@@ -1,0 +1,39 @@
+﻿@model IEnumerable<WindsorExample.Models.Link>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.KpiID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ReportID)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.KpiID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ReportID)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.LinkID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.LinkID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.LinkID })
+        </td>
+    </tr>
+}
+
+</table>

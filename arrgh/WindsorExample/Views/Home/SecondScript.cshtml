@@ -1,0 +1,66 @@
+﻿@using System.Configuration
+@using Castle.Core.Internal
+@model WindsorExample.Models.AssignWorkViewModel
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <script src="~/Scripts/jquery-2.1.4.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.11.4.js"></script>
+    <script src="~/Scripts/select2.js"></script>
+    <script src="~/Scripts/select2.sortable.js"></script>
+    <link href="~/Content/css/select2.min.css" rel="stylesheet" />
+    <script>
+        $(document).ready(function () {
+            //build tags for dropdown
+            var tagArr = new Array();
+            var tagArr2 = new Array();
+            @if (! @Model.Kpis.IsNullOrEmpty())
+            {
+                 foreach(var item in @Model.Kpis){
+                      <text>tagArr.push("@item.KpiName")</text>
+                 }
+            }
+            @if (! @Model.Reports.IsNullOrEmpty())
+            {
+                foreach(var item in @Model.Reports){
+                    <text>tagArr2.push("@item.ReportName")</text>
+                }
+            }
+            //build dropboxes
+            //kpis
+            $("#e15").select2({
+                placeholder: 'Select an Option',
+                tags: tagArr
+            });
+            $("#e15").on("change", function () { $("#e15_val").html($("#e15").val()); });
+            //reports
+            $("#e16").select2({
+                placeholder: 'Select an Option',
+                tags: tagArr2
+            });
+            $("#e16").on("change", function () { $("#e16_val").html($("#e16").val()); });
+
+            $("#checkjq").fadeTo('slow', 0.1);
+        });
+    </script>
+    <title></title>
+</head>
+<body>
+    <select multiple id="e15" style="width:300px" input type="hidden">
+        <option value="" />
+    </select>
+
+    <select multiple id="e16" style="width:300px" input type="hidden">
+        <option value="" />
+    </select>
+
+<div id="checkjq">
+        hi, this is checking jquery
+    </div>
+
+<input id="hiddenHtmlInput" type="hidden" class="bigdrop" style="width: 30%" value=""/>
+
+   
+</body>
+</html>

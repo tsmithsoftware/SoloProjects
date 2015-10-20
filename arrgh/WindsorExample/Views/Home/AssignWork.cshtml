@@ -1,0 +1,79 @@
+﻿@model WindsorExample.Models.AssignWorkViewModel
+
+@{
+    ViewBag.Title = "AssignWork";
+}
+
+@using (Html.BeginForm())
+{
+    <h2>Assign KPIs to Reports</h2>
+    <div id="box" class="box">
+        <div class="box-top">
+        </div>
+
+        <div class="box-middle">
+            
+            @*Below code lists them one way. For the first Report, only need to select a single report to associate KPIs to - so only need to do a dropdown*@
+            @for (var n = 0; n < Model.Reports.Count; n++)
+    {
+        <br/>
+        @Html.EditorFor(model => model.Reports[n].IsSelected)
+        ;
+        @Html.TextAreaFor(model => model.Reports[n].ReportName, new {@readonly = "readonly", @cols = 40})
+        ;
+
+
+            @*Below code lists them one way*@
+            @*             @Html.DisplayName(Model.Reports[n].ReportName);*@
+            @*                @Html.TextBoxFor(Model.Reports[n].ReportName);*@
+            <!--
+            <input type="radio" id=item.ReportName name=item.ReportName/>
+            <label for=item.ReportName>item.ReportName</label>
+            -->
+            }
+        </div>
+
+        <div class="box-bottom">
+
+
+        </div>
+    </div>
+
+    <div id="box2" class="box">
+        <div class="box-top">
+        </div>
+        <div class="box-middle">
+            @for (var n = 0; n < Model.Kpis.Count; n++)
+            {
+                <br/>
+                @Html.EditorFor(model => model.Kpis[n].IsSelected)
+                ;
+                @Html.TextAreaFor(model => model.Kpis[n].KpiName, new {@readonly = "readonly", @cols = 40})
+                ;
+                <!-- <br/>
+                <input type="checkbox" id=item.KpiName name=item.KpiName/>
+                <label for=item.KpiName>item.KpiName</label>
+                -->
+            }
+        </div>
+        
+        <div class="box-bottom">
+
+
+        </div>
+    </div>
+    <button class="btn btn-default" type="submit" id="Save">Save</button>
+    
+<!--style="display: block-->
+}
+                @section scripts {
+
+                    <script>
+                        $("#Save").click(function (event) {
+                            alert("checked radio buttons: " + $("form input[type='radio']:checked").val());
+                            alert("hello");
+                            console.log('item anchor clicked');
+
+                        });
+                    </script>
+                }

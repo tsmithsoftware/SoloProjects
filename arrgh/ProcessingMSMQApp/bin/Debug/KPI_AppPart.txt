@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebPart xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/WebPart/v2">
+  <Title>KPI Summary</Title>
+  <FrameType>TitleBarOnly</FrameType>
+  <Description>Allows authors to enter rich text content.</Description>
+  <IsIncluded>true</IsIncluded>
+  <ZoneID>CenterColumn</ZoneID>
+  <PartOrder>0</PartOrder>
+  <FrameState>Normal</FrameState>
+  <Height />
+  <Width>340px</Width>
+  <AllowRemove>true</AllowRemove>
+  <AllowZoneChange>true</AllowZoneChange>
+  <AllowMinimize>true</AllowMinimize>
+  <AllowConnect>true</AllowConnect>
+  <AllowEdit>true</AllowEdit>
+  <AllowHide>true</AllowHide>
+  <IsVisible>true</IsVisible>
+  <DetailLink>SITE_NAME/_layouts/15/WopiFrame.aspx?sourcedoc=SITE_NAME/Reports/Standard/KPI%20Dashboard.xlsx&amp;action=default</DetailLink>
+  <HelpLink />
+  <HelpMode>Modeless</HelpMode>
+  <Dir>Default</Dir>
+  <PartImageSmall />
+  <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+  <PartImageLarge>/_layouts/15/images/mscontl.gif</PartImageLarge>
+  <IsIncludedFilter />
+  <Assembly>Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+  <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+  <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+  <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor"><![CDATA[<script src="../_layouts/15/sp.runtime.js" type="text/javascript"></script>
+<script src="about:blank" type="text/javascript"></script> 
+<div id="MCRSKPIHTML"> 
+   <table> 
+      <tbody>
+         <tr> 
+            <td id="TDKPI1">
+               <img id="IMGKPI1" src="../Images/kpitileplaceholder.png" alt=""/>
+            </td> 
+         </tr> 
+         <tr> 
+            <td id="TDKPI2">
+               <img id="IMGKPI2" src="../Images/kpitileplaceholder.png" alt=""/> 
+            </td> 
+         </tr> 
+      </tbody>
+   </table>
+&#160;</div>
+<script src="../Style Library/MCRSKPI-Carousel.js" type="text/javascript"></script>]]>
+  </Content>
+  <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+</WebPart>

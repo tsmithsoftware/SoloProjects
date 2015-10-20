@@ -1,0 +1,169 @@
+﻿@model WindsorExample.Models.AssignWorkViewModel
+
+@{
+    ViewBag.Title = "ScriptCopy";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+    <script src="~/Scripts/jquery-2.1.4.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.11.4.js"></script>
+    <script src="~/Scripts/select2.js"></script>
+    <link href="~/Content/css/select2.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> <!--Font-Awesome, treating images to scale-->
+</head>
+<h2>Script page playing with JQuery</h2>
+
+<form style="margin-top: 1em;">
+    <div id="radioset">
+        <input type="radio" id="radio1" name="radio"><label id="radio1Label" for="radio1">Approve</label>
+        <input type="radio" id="radio2" name="radio" checked="checked"><label id="radio2Label" for="radio2">Deny</label>
+    </div>
+</form>
+<div class="blockCol" id="block1">
+
+</div>
+
+<div style='float: right; margin: 4px;'>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+Some stuff to go here
+Ipsos dolorus sum ergo concordant
+Ipsos dolorus sum ergo concordant
+Ipsos dolorus sum ergo concordant
+Ipsos dolorus sum ergo concordant
+Ipsos dolorus sum ergo concordant
+Ipsos dolorus sum ergo concordant
+Ipsos dolorus sum ergo concordant
+Ipsos dolorus sum ergo concordant
+Ipsos dolorus sum ergo concordant
+Ipsos dolorus sum ergo concordant
+Ipsos dolorus sum ergo concordant
+Ipsos dolorus sum ergo concordant
+Ipsos dolorus sum ergo concordant
+Ipsos dolorus sum ergo concordant
+Ipsos dolorus sum ergo concordant
+Ipsos dolorus sum ergo concordant
+
+<div class="blockColFade" id="block2">
+</div>
+
+<div class="blockCol" id="selectOne">
+    <img src="~\images/kpi.jpg" alt="KPI's'" />
+</div>
+<div class="blockCol" id="selectTwo">
+    <img src="~\images/reports.jpg" alt="Report's'" />
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<i class="fa fa-camera-retro"></i> fa-camera-retro
+<!--
+Selection using Select2.js:
+<select id="basicSelect" style="width: 300px">
+    <option value=""></option>
+    foreach (var kpi in Model.Kpis)
+    {
+        <option value="kpi.KpiId">kpi.KpiName</option>
+    }
+</select>
+
+<select multiple id="e15" style="width: 300px" input type="hidden">
+    <option value=""/>
+</select>
+
+<select multiple id="e16" style="width: 300px" input type="hidden">
+    <option value=""/>
+</select>
+-->
+<div id="partialContainer">
+    @Html.Partial("Selector", Model)
+</div>
+@section Scripts {
+
+    <script>
+        $(document).ready(
+            function()
+            {
+                $("#block1").fadeOut(1000);
+                $("#block2").mouseenter(function() {
+                    $("#block2").fadeTo('slow', 1);
+                });
+                $("#block2").mouseleave(function () {
+                    $("#block2").fadeTo('slow', 0.1);
+                });
+                $("#selectOne").click(function () {
+                    $("#selectOne").fadeTo('slow', 1);
+                    $("#selectTwo").fadeTo('slow', 0.1);
+
+                    // and send it as AJAX request to the newly created action
+                    $.ajax({
+                        url: '@Url.Action("Selector")',
+                        type: 'POST',
+                        data: { someValue: "kpi" },//someValue = parameter?
+                        success: function (result) {
+                            // when the AJAX succeeds refresh the ddl container with
+                            // the partial HTML returned by the Foo controller action
+                            $('#partialContainer').html(result);
+                        }
+                    });
+
+                });
+                $("#selectTwo").click(function () {
+                    $("#selectTwo").fadeTo('slow', 1);
+                    $("#selectOne").fadeTo('slow', 0.1);
+
+                    // and send it as AJAX request to the newly created action
+                    $.ajax({
+                        url: '@Url.Action("Selector")',
+                        type: 'POST',
+                        data: { someValue: "reports" },
+                        success: function (result) {
+                            // when the AJAX succeeds refresh the ddl container with
+                            // the partial HTML returned by the Foo controller action
+                            $('#partialContainer').html(result);
+                        }
+                    });
+                });
+                $("#e15").select2({
+                    placeholder: 'Select option',
+                    tags: ["red", "green", "blue", "orange", "white", "black", "purple", "cyan", "teal"]
+                });
+                $("#e15").on("change", function () { $("#e15_val").html($("#e15").val()); });
+                //and finally is attempted combination
+
+                //below doesn't work
+                function format(item) { return item.toString(); }//for format below
+
+                $("#e16").select2({
+                    placeholder: 'Select option',
+                    allowClear: true,
+                    style: "display: none",
+                    minimumInputLength: 2, //you can specify a min. query length to return results
+                    ajax:{
+                        url: '@Url.Action("Selector")',
+                        type: 'POST',
+                        data: { someValue: "reports" },
+                        success: function (result) {
+                            // when the AJAX succeeds refresh the ddl container with
+                            // the partial HTML returned by the Foo controller action
+                            $('#partialContainer').html(result);
+                        }
+                    },
+                    formatResult: format,
+                formatSelection: function(item){
+                    return item.name;
+                },
+                escapeMarkup: function (m) { return m; }
+                });
+
+                $("#e16").on("change", function () { $("#e16_val").html($("#e16").val()); });
+                //and finally is attempted combination
+            }
+        );
+    </script>
+
+}

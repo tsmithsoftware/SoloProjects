@@ -1,0 +1,14 @@
+C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\HostApplication\bin\Debug\HostApplication.exe.config
+C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\HostApplication\bin\Debug\HostApplication.exe
+C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\HostApplication\bin\Debug\HostApplication.pdb
+C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\HostApplication\bin\Debug\AG.dll
+C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\HostApplication\bin\Debug\MSMQReceiverService.exe
+C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\HostApplication\bin\Debug\Microsoft.SharePoint.Client.dll
+C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\HostApplication\bin\Debug\Newtonsoft.Json.dll
+C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\HostApplication\bin\Debug\Microsoft.SharePoint.Client.Runtime.dll
+C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\HostApplication\bin\Debug\AG.pdb
+C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\HostApplication\bin\Debug\MSMQReceiverService.pdb
+C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\HostApplication\bin\Debug\Newtonsoft.Json.xml
+C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\HostApplication\obj\Debug\HostApplication.csprojResolveAssemblyReference.cache
+C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\HostApplication\obj\Debug\HostApplication.exe
+C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\HostApplication\obj\Debug\HostApplication.pdb
