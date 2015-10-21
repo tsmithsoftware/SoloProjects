@@ -1,0 +1,10 @@
+Queue Created at:23/08/2015 19:02:52
+Reading from queue: .\private$\ShippingQueue
+Number of messages: 0
+Received message body: {"properties":{"EventType":0,"CorrelationId":"00000000-0000-0000-0000-000000000000","ContextToken":"NewContextToken","CultureLCID":0,"UICultureLCID":3,"ErrorCode":"ErrorCode","ErrorMessage":"ErrorMessage","ItemEventProperties":null,"ListEventProperties":null,"WebEventProperties":null,"SecurityEventProperties":null,"AppEventProperties":null,"EntityInstanceEventProperties":null},"eventReceiverUrl":"hellosonsonosn"} at 23/08/2015 19:06:49
+mysite: Starting to process message for site {0}Execute function called.
+Received message body: {"properties":{"EventType":0,"CorrelationId":"00000000-0000-0000-0000-000000000000","ContextToken":"NewContextToken","CultureLCID":0,"UICultureLCID":3,"ErrorCode":"ErrorCode","ErrorMessage":"ErrorMessage","ItemEventProperties":null,"ListEventProperties":null,"WebEventProperties":null,"SecurityEventProperties":null,"AppEventProperties":null,"EntityInstanceEventProperties":null},"eventReceiverUrl":"hihjihi"} at 23/08/2015 19:18:33
+mysite: Starting to process message for site {0}Execute function called.
+Received message body: {"properties":{"EventType":0,"CorrelationId":"00000000-0000-0000-0000-000000000000","ContextToken":"NewContextToken","CultureLCID":0,"UICultureLCID":3,"ErrorCode":"ErrorCode","ErrorMessage":"ErrorMessage","ItemEventProperties":null,"ListEventProperties":null,"WebEventProperties":null,"SecurityEventProperties":null,"AppEventProperties":null,"EntityInstanceEventProperties":null},"eventReceiverUrl":"ij"} at 23/08/2015 19:20:17
+mysite: Starting to process message for site {0}Execute function called.
+

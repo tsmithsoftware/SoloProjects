@@ -1,0 +1,11 @@
+C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\NinjaDomain.Classes\bin\Debug\NinjaDomain.Classes.dll.config
+C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\NinjaDomain.Classes\bin\Debug\NinjaDomain.Classes.dll
+C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\NinjaDomain.Classes\bin\Debug\NinjaDomain.Classes.pdb
+C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\NinjaDomain.Classes\bin\Debug\EntityFramework.dll
+C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\NinjaDomain.Classes\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\NinjaDomain.Classes\bin\Debug\MySql.Data.dll
+C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\NinjaDomain.Classes\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\NinjaDomain.Classes\bin\Debug\EntityFramework.xml
+C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\NinjaDomain.Classes\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\NinjaDomain.Classes\obj\Debug\NinjaDomain.Classes.dll
+C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\NinjaDomain.Classes\obj\Debug\NinjaDomain.Classes.pdb

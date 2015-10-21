@@ -1,0 +1,14 @@
+C:\Users\TSmith1\Source\Workspaces\MCRS\OnPrem\Hitachi.MCRS\MSMQReceiverApp\bin\Debug\MSMQReceiverApp.exe.config
+C:\Users\TSmith1\Source\Workspaces\MCRS\OnPrem\Hitachi.MCRS\MSMQReceiverApp\bin\Debug\MSMQReceiverApp.exe
+C:\Users\TSmith1\Source\Workspaces\MCRS\OnPrem\Hitachi.MCRS\MSMQReceiverApp\bin\Debug\MSMQReceiverApp.pdb
+C:\Users\TSmith1\Source\Workspaces\MCRS\OnPrem\Hitachi.MCRS\MSMQReceiverApp\bin\Debug\AG.dll
+C:\Users\TSmith1\Source\Workspaces\MCRS\OnPrem\Hitachi.MCRS\MSMQReceiverApp\bin\Debug\Hitachi.MCRSWeb.Domain.dll
+C:\Users\TSmith1\Source\Workspaces\MCRS\OnPrem\Hitachi.MCRS\MSMQReceiverApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\TSmith1\Source\Workspaces\MCRS\OnPrem\Hitachi.MCRS\MSMQReceiverApp\bin\Debug\EntityFramework.dll
+C:\Users\TSmith1\Source\Workspaces\MCRS\OnPrem\Hitachi.MCRS\MSMQReceiverApp\bin\Debug\AG.pdb
+C:\Users\TSmith1\Source\Workspaces\MCRS\OnPrem\Hitachi.MCRS\MSMQReceiverApp\bin\Debug\Hitachi.MCRSWeb.Domain.pdb
+C:\Users\TSmith1\Source\Workspaces\MCRS\OnPrem\Hitachi.MCRS\MSMQReceiverApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\TSmith1\Source\Workspaces\MCRS\OnPrem\Hitachi.MCRS\MSMQReceiverApp\bin\Debug\EntityFramework.xml
+C:\Users\TSmith1\Source\Workspaces\MCRS\OnPrem\Hitachi.MCRS\MSMQReceiverApp\obj\Debug\MSMQReceiverApp.csprojResolveAssemblyReference.cache
+C:\Users\TSmith1\Source\Workspaces\MCRS\OnPrem\Hitachi.MCRS\MSMQReceiverApp\obj\Debug\MSMQReceiverApp.exe
+C:\Users\TSmith1\Source\Workspaces\MCRS\OnPrem\Hitachi.MCRS\MSMQReceiverApp\obj\Debug\MSMQReceiverApp.pdb

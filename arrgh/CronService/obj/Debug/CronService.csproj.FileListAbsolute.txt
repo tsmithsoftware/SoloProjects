@@ -1,0 +1,5 @@
+C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\CronService\bin\Debug\CronService.exe.config
+C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\CronService\bin\Debug\CronService.exe
+C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\CronService\bin\Debug\CronService.pdb
+C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\CronService\obj\Debug\CronService.exe
+C:\Users\TSmith1\Documents\Visual Studio 2015\Projects\arrgh\CronService\obj\Debug\CronService.pdb

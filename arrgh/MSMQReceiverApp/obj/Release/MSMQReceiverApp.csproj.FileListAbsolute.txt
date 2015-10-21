@@ -1,0 +1,12 @@
+C:\Users\TSmith1\Source\Workspaces\MCRS\OnPrem\Hitachi.MCRS\MSMQReceiverApp\bin\Release\MSMQReceiverApp.exe.config
+C:\Users\TSmith1\Source\Workspaces\MCRS\OnPrem\Hitachi.MCRS\MSMQReceiverApp\bin\Release\MSMQReceiverApp.exe
+C:\Users\TSmith1\Source\Workspaces\MCRS\OnPrem\Hitachi.MCRS\MSMQReceiverApp\bin\Release\MSMQReceiverApp.pdb
+C:\Users\TSmith1\Source\Workspaces\MCRS\OnPrem\Hitachi.MCRS\MSMQReceiverApp\bin\Release\Hitachi.MCRSWeb.Domain.dll
+C:\Users\TSmith1\Source\Workspaces\MCRS\OnPrem\Hitachi.MCRS\MSMQReceiverApp\bin\Release\Newtonsoft.Json.dll
+C:\Users\TSmith1\Source\Workspaces\MCRS\OnPrem\Hitachi.MCRS\MSMQReceiverApp\bin\Release\EntityFramework.dll
+C:\Users\TSmith1\Source\Workspaces\MCRS\OnPrem\Hitachi.MCRS\MSMQReceiverApp\bin\Release\Hitachi.MCRSWeb.Domain.pdb
+C:\Users\TSmith1\Source\Workspaces\MCRS\OnPrem\Hitachi.MCRS\MSMQReceiverApp\bin\Release\Newtonsoft.Json.xml
+C:\Users\TSmith1\Source\Workspaces\MCRS\OnPrem\Hitachi.MCRS\MSMQReceiverApp\bin\Release\EntityFramework.xml
+C:\Users\TSmith1\Source\Workspaces\MCRS\OnPrem\Hitachi.MCRS\MSMQReceiverApp\obj\Release\MSMQReceiverApp.csprojResolveAssemblyReference.cache
+C:\Users\TSmith1\Source\Workspaces\MCRS\OnPrem\Hitachi.MCRS\MSMQReceiverApp\obj\Release\MSMQReceiverApp.exe
+C:\Users\TSmith1\Source\Workspaces\MCRS\OnPrem\Hitachi.MCRS\MSMQReceiverApp\obj\Release\MSMQReceiverApp.pdb
